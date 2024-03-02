@@ -1,0 +1,148 @@
+.Meals1 {
+    width: 100%;
+    height: 35rem;
+    z-index: 0;
+    overflow: hidden;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+  }
+  
+  .Header-things {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8a2b06;
+  }
+  
+  .Header-things button {
+    margin-right: 100px;
+  }
+  .Header-things h1 {
+    margin-left: 100px;
+    color: white;
+  }
+  .svg-cart {
+    margin-right: 30px;
+    color: white;
+  }
+  .name-cart {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .name-cart {
+    margin-top: 3px;
+    font-size: 16px;
+    color: white;
+  }
+  .items {
+    margin-left: 20px;
+    border: 2px solid #8a2b06;
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 30%;
+    background-color: #8a2b06;
+  }
+  .Cart-icon {
+    border-radius: 35px;
+    border-color: rgba(0, 0, 0, 0.548);
+  
+    width: 220px;
+    height: 50px;
+  
+    background-color: rgba(0, 0, 0, 0.548);
+  }
+  .All-dummy-items {
+    margin-left: 13%;
+  
+    position: relative;
+    top: 13vh;
+    left: 5%;
+    width: 60%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;
+    animation: slide-down 300ms ease-out forwards;
+    outline: none;
+    list-style-type: none;
+    border-bottom: 2x solid black;
+    margin-bottom: 20px;
+  }
+  .All {
+    background-color: rgba(0, 0, 0, 0.759);
+  }
+  .data {
+    border-bottom: 0.2px solid rgba(0, 0, 0, 0.699);
+    /* margin-bottom : 100px; */
+    font-family: "Times New Roman", Times, serif;
+  }
+  .Amount {
+    color: #8a2b06;
+  }
+  .All-adding-items {
+    position: relative;
+    margin-left: 50%;
+    top: -16vh;
+  }
+  
+  .All-adding-items h2 {
+    margin-left: 260px;
+    margin-bottom: -25px;
+  }
+  .All-adding-items input {
+    margin-left: 400px;
+  
+    top: 24px;
+    width: 25px;
+  }
+  
+  .All-dummy-items button {
+    margin-left: 310px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 140px;
+    font-size: 15px;
+    background-color: #8a2b06;
+    border-radius: 20px;
+    color: white;
+  }
+  .Total {
+    color: black;
+    font-size: 20px;
+  }
+  .All-backdrop h1 {
+    margin-bottom: 5px;
+  }
+  .All-backdrop h3 {
+    margin-left: 80%;
+    padding: 8px;
+    margin-bottom: -10px;
+   height: -20px;
+  }
+  
+  .button-backdrop {
+    margin-left: 70%;
+  }
+  .button2 {
+    margin-left: 20px;
+    padding: 8px;
+    width: 80px;
+    border-radius: 30px;
+  }
+  .button1 {
+    padding: 8px;
+    width: 80px;
+    border-radius: 30px;
+  }
+  .button1:hover {
+    background-color: #8a2b06;
+  }
+  
+  .button2:hover {
+    background-color: #8a2b06;
+  }
+  
