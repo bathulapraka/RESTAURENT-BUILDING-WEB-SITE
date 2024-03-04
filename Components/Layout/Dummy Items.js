@@ -1,30 +1,32 @@
 import React from "react";
 import "../Layout/Header.css";
-import "../Layout/Header.css"
+import "../Layout/Header.css";
 import User from "../User Input/User Input";
+
 const Dummy = (props) => {
   const Arr = [
     {
       name: "Sushi",
       item: "Finest Fish and veggies",
-      value: "$22.08",
+      amount: 22.08,
     },
     {
       name: "Burger",
       item: "Juicy beef patty with chinese",
-      value: "$20.05",
+      amount: 20,
     },
     {
-      name: "pizza",
-      item: "Deliciious combination of toppings",
-      value: "$18.95",
+      name: "Pizza",
+      item: "Delicious combination of toppings",
+      amount: 18.95,
     },
     {
       name: "Green Bowl",
       item: "Healthy...and green",
-      value: "$100.04",
+      amount: 100.04,
     },
   ];
+
   return (
     <div className="All">
       <div className="All-dummy-items">
@@ -32,12 +34,13 @@ const Dummy = (props) => {
           <li key={index} className="data">
             <h2>{item.name}</h2>
             <p>{item.item}</p>
-            <h2 className="Amount">{item.value}</h2>
-            <User />
+            <h2 className="Amount">{item.amount}</h2>
+            <User name={item.name} amount={item.amount} />
           </li>
         ))}
       </div>
     </div>
   );
 };
+
 export default Dummy;

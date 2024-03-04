@@ -14,10 +14,10 @@ function App() {
     Setclick(false);
   };
   return (
-    <CartProvider>
+    <CartProvider>  
       {Click && <CartItems Onclose={Notshow} />}
       <Header Showing={shown} />
-    </CartProvider>
+    </CartProvider> 
   );
 }
 
