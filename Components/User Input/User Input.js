@@ -1,14 +1,26 @@
 import React, { useContext } from "react";
 import CartContext from "../Store/CartContext";
 
-const User = ({ name, amount }) => {
-  const { Additem} = useContext(CartContext);
+const User = ({ name, amount, inputs }) => {
+  const { Additem, items } = useContext(CartContext);
 
   const addItemToCart = () => {
-    const item = { name, amount };
+    const item = { name, amount, inputs };
     Additem(item);
   };
- 
+
+  const submitHandler = () => {
+    const isPresent = CheckCart();
+    if (!isPresent) {
+      addItemToCart();
+    } else {
+      alert("ITEM IS ALREADY IN THE CART PAGE");
+    }
+  };
+
+  const CheckCart = () => {
+    return items.some((item) => item.name === name);
+  };
 
   return (
     <div className="All-adding-items">
@@ -19,8 +31,7 @@ const User = ({ name, amount }) => {
         <input type="number"></input>
       </span>
       <span>
-        <button onClick={addItemToCart}>+ Add</button>
-        
+        <button onClick={submitHandler}>+ Add</button>
       </span>
     </div>
   );

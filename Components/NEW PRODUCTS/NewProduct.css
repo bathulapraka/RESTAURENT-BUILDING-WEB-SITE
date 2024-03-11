@@ -1,0 +1,130 @@
+.Sun-image {
+  display: grid;
+  margin-left: 35%;
+  margin-top: 10%;
+
+  border-bottom: 2px solid white;
+}
+
+.Our {
+  display: grid;
+  margin-left: 42.5%;
+  color: white;
+  margin-top: 7px;
+  font-size: 20px;
+}
+.Menu {
+  color: #f15d40;
+  display: grid;
+  margin-left: 39%;
+  font-size: 80px;
+  margin-bottom: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+
+.hell {
+  border-bottom: 3px solid white;
+  margin-bottom: 120px;
+  margin-left: 33pc;
+  margin-right: 40pc;
+}
+.salad{
+   color: #f15d40;
+   margin-left: 30%;
+}
+
+.para{
+    color:white;
+    margin-left:25%;
+    margin-top: 10px;
+}
+.price{
+    color:white;
+    margin-left: 38pc;
+    margin-top: -35px;
+}
+.Paragraph{
+    color: white;
+    margin-left: 24pc;
+    margin-top: -100px;
+  
+   
+}
+
+.salad-item{
+  width:300px;
+  height: 300px;
+  margin-left: 70%;
+  border-radius: 50%;
+}
+.Chicken{
+  width:300px;
+  height: 300px;
+  margin-left: 55%;
+  border-radius: 50%
+}
+.pork-sald{
+  width:300px;
+  height: 300px;
+  margin-left: 70%;
+  border-radius: 50%
+}
+.Theory{
+    border-bottom: 2px solid white;
+    border-bottom: 3px solid white;
+    margin-bottom: 120px;
+    margin-left: 20pc;
+    margin-right: 52pc;
+}
+.Chick{
+      color: white;
+      margin-left: 24pc;
+      margin-top: -70px;
+
+}
+.dish{
+  color: #f15d40;
+  margin-left: 60%;
+  margin-top: -63px;
+  display:grid;
+  margin-top: -30px;
+  margin-bottom: -60px;
+}
+
+.Vegan{
+  color:white
+}
+
+
+.Vegan{
+  margin-left: 60%;
+  font-size: 30px;
+}
+
+.Vegan-Mous{
+  flex-direction: column;
+  width:300px;
+  height: 300px;
+  margin-left: 10%;
+  border-radius: 50%;
+  margin-bottom: -100px;
+  
+}
+
+.millianir{
+  width:300px;
+  height: 300px;
+  margin-left: 40%;
+  border-radius: 50%;
+  margin-bottom: -90px;
+
+}
+.pasta{
+  width:300px;
+  height: 300px;
+  margin-left: 40%;
+  border-radius: 50%;
+  margin-top: -200px;
+
+}

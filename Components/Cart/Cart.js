@@ -4,6 +4,7 @@ import { useContext } from "react";
 import CartContext from "../Store/CartContext";
 
 const CartItems = (props) => {
+
   const CartCtx = useContext(CartContext);
 
   const CartitemsStoreNumber = CartCtx.items.reduce((NumberCart, item) => {
@@ -14,19 +15,38 @@ const CartItems = (props) => {
     CartCtx.removeItem(id);
   };
 
+
+
   const arritems = (
-    <ul>
+    <ul className="All-Cart-Items">
       {CartCtx.items.map((item) => (
-        <li key={item.id}>
+        <li
+          key={item.id}
+          style={{
+            borderBottom: "1px solid black",
+            marginBottom: "px",
+            borderRight: "39px",
+            marginLeft:"-30px",
+            color:"green"
+          
+          }}
+        >
           {item.name}
           <br />
           {item.amount}
-          <button onClick={() => RemoveCartItems(item.id)}>-</button>
-          <button>+</button>
+          <div
+            style={{ marginLeft: "70%", display: "flex", marginBottom: "40px", fontSize:"50px",marginTop:"-50px" }}
+          >
+            <button onClick={() => RemoveCartItems(item.id)} style={{padding:"7px",width:"50px"}}>-</button>
+            <button style={{ marginLeft: "50px", paddingLeft: "10px",width:"50px" }}>
+              +
+            </button>
+          </div>
         </li>
       ))}
     </ul>
   );
+  
   return (
     <Modal Onclose={props.Onclose}>
       {arritems}

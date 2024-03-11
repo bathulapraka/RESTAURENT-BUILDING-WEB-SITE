@@ -1,0 +1,113 @@
+.Drinking {
+  height: 500px;
+  display: flex;
+  width: 50%;
+  object-fit: cover;
+  background: no-repeat;
+  margin-top: 130px;
+}
+.text-Drinkng {
+  float: right;
+  margin-top: 200px;
+  clear: right;
+  margin-right: 50px;
+  font-size: 18px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 0, 0.792),
+    rgba(0, 255, 17, 0.775),
+    rgb(0, 0, 0)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.Idly {
+  height: 500px;
+  display: flex;
+
+  width: 50%;
+  object-fit: cover;
+  background: no-repeat;
+  margin-left: 50%;
+  margin-top: -140px;
+}
+.meat-item {
+  height: 500px;
+  display: flex;
+
+  width: 50%;
+  object-fit: cover;
+  background: no-repeat;
+  margin-left: 50%;
+  margin-top: -140px;
+}
+.meat-food {
+  float: right;
+  margin-top: -250px;
+  clear: right;
+  margin-right: 50px;
+  font-size: 18px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 21, 0, 0.792),
+    rgb(255, 140, 0),
+    rgb(0, 0, 0)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.noodles {
+  height: 500px;
+  display: flex;
+  width: "50%";
+  object-fit: cover;
+  background: no-repeat;
+  margin-right: 49%;
+  margin-top: 163.5px;
+  margin-left: 3px;
+}
+.Nood{
+    float: right;
+    margin-top: -250px;
+    clear: right;
+   margin-right: 100px;
+    font-size: 18px;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 21, 0, 0.792),
+      rgb(255, 140, 0)
+      
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.ric{
+    height: 500px;
+  display: flex;
+  width: "50%";
+  object-fit: cover;
+  background: no-repeat;
+  margin-right: 49%;
+  margin-top: 142.5px;
+  margin-left: 3px;
+}
+.rice-food{
+    float: right;
+    margin-top: -250px;
+    clear: right;
+   margin-right: -1px;
+   
+    font-size: 18px;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 21, 0, 0.792),
+      rgb(255, 140, 0)
+      
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
